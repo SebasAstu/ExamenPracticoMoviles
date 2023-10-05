@@ -12,10 +12,7 @@ class perfil extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            CircleAvatar(
-              radius: 60.0,
-              backgroundImage: NetworkImage(""),
-            ),
+           Image.network('https://cdn-icons-png.flaticon.com/512/6596/6596121.png',height: 100,width: 100,),
             SizedBox(height: 20.0),
             Text(
               'Sebastian Asturizaga',
